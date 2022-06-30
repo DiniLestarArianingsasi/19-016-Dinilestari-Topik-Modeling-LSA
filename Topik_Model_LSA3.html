@@ -52,7 +52,6 @@ const thebe_selector_output = ".output, .cell_output"
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="prev" title="Selamat Datang Di Materi Topik Modeling" href="intro.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -112,10 +111,10 @@ const thebe_selector_output = ".output, .cell_output"
                 </a>
             </li>
         </ul>
-        <ul class="current nav bd-sidenav">
- <li class="toctree-l1 current active">
-  <a class="current reference internal" href="#">
-   WEB CRAWLING
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="UAS.html">
+   Topik Modeling LSA (Latent Semantic Analysis)
   </a>
  </li>
 </ul>
@@ -554,10 +553,44 @@ title="Print to PDF"
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>^C
-</pre></div>
-</div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Note: you may need to restart the kernel to use updated packages.
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Requirement already satisfied: scrapy in c:\users\asus\appdata\local\programs\python\python38\lib\site-packages (2.6.1)
+Requirement already satisfied: zope.interface&gt;=4.1.3 in c:\users\asus\appdata\local\programs\python\python38\lib\site-packages (from scrapy) (5.4.0)
+Requirement already satisfied: itemloaders&gt;=1.0.1 in c:\users\asus\appdata\local\programs\python\python38\lib\site-packages (from scrapy) (1.0.4)
+Requirement already satisfied: Twisted&gt;=17.9.0 in c:\users\asus\appdata\local\programs\python\python38\lib\site-packages (from scrapy) (22.2.0)
+Requirement already satisfied: queuelib&gt;=1.4.2 in c:\users\asus\appdata\local\programs\python\python38\lib\site-packages (from scrapy) (1.6.2)
+Requirement already satisfied: itemadapter&gt;=0.1.0 in c:\users\asus\appdata\local\programs\python\python38\lib\site-packages (from scrapy) (0.4.0)
+Requirement already satisfied: protego&gt;=0.1.15 in c:\users\asus\appdata\local\programs\python\python38\lib\site-packages (from scrapy) (0.2.1)
+Requirement already satisfied: setuptools in c:\users\asus\appdata\local\programs\python\python38\lib\site-packages (from scrapy) (41.2.0)
+Requirement already satisfied: cryptography&gt;=2.0 in c:\users\asus\appdata\local\programs\python\python38\lib\site-packages (from scrapy) (36.0.1)
+Requirement already satisfied: w3lib&gt;=1.17.0 in c:\users\asus\appdata\local\programs\python\python38\lib\site-packages (from scrapy) (1.22.0)
+Requirement already satisfied: pyOpenSSL&gt;=16.2.0 in c:\users\asus\appdata\local\programs\python\python38\lib\site-packages (from scrapy) (22.0.0)
+Requirement already satisfied: lxml&gt;=3.5.0 in c:\users\asus\appdata\local\programs\python\python38\lib\site-packages (from scrapy) (4.8.0)
+Requirement already satisfied: PyDispatcher&gt;=2.0.5 in c:\users\asus\appdata\local\programs\python\python38\lib\site-packages (from scrapy) (2.0.5)
+Requirement already satisfied: cssselect&gt;=0.9.1 in c:\users\asus\appdata\local\programs\python\python38\lib\site-packages (from scrapy) (1.1.0)
+Requirement already satisfied: parsel&gt;=1.5.0 in c:\users\asus\appdata\local\programs\python\python38\lib\site-packages (from scrapy) (1.6.0)
+Requirement already satisfied: tldextract in c:\users\asus\appdata\local\programs\python\python38\lib\site-packages (from scrapy) (3.2.0)
+Requirement already satisfied: service-identity&gt;=16.0.0 in c:\users\asus\appdata\local\programs\python\python38\lib\site-packages (from scrapy) (21.1.0)
+Requirement already satisfied: cffi&gt;=1.12 in c:\users\asus\appdata\local\programs\python\python38\lib\site-packages (from cryptography&gt;=2.0-&gt;scrapy) (1.15.0)
+Requirement already satisfied: jmespath&gt;=0.9.5 in c:\users\asus\appdata\local\programs\python\python38\lib\site-packages (from itemloaders&gt;=1.0.1-&gt;scrapy) (0.10.0)
+Requirement already satisfied: six&gt;=1.6.0 in c:\users\asus\appdata\roaming\python\python38\site-packages (from parsel&gt;=1.5.0-&gt;scrapy) (1.15.0)
+Requirement already satisfied: pyasn1 in c:\users\asus\appdata\local\programs\python\python38\lib\site-packages (from service-identity&gt;=16.0.0-&gt;scrapy) (0.4.8)
+Requirement already satisfied: pyasn1-modules in c:\users\asus\appdata\local\programs\python\python38\lib\site-packages (from service-identity&gt;=16.0.0-&gt;scrapy) (0.2.8)
+Requirement already satisfied: attrs&gt;=19.1.0 in c:\users\asus\appdata\local\programs\python\python38\lib\site-packages (from service-identity&gt;=16.0.0-&gt;scrapy) (21.4.0)
+Requirement already satisfied: typing-extensions&gt;=3.6.5 in c:\users\asus\appdata\local\programs\python\python38\lib\site-packages (from Twisted&gt;=17.9.0-&gt;scrapy) (4.1.1)
+Requirement already satisfied: constantly&gt;=15.1 in c:\users\asus\appdata\local\programs\python\python38\lib\site-packages (from Twisted&gt;=17.9.0-&gt;scrapy) (15.1.0)
+Requirement already satisfied: Automat&gt;=0.8.0 in c:\users\asus\appdata\local\programs\python\python38\lib\site-packages (from Twisted&gt;=17.9.0-&gt;scrapy) (20.2.0)
+Requirement already satisfied: incremental&gt;=21.3.0 in c:\users\asus\appdata\local\programs\python\python38\lib\site-packages (from Twisted&gt;=17.9.0-&gt;scrapy) (21.3.0)
+Requirement already satisfied: twisted-iocpsupport&lt;2,&gt;=1.0.2 in c:\users\asus\appdata\local\programs\python\python38\lib\site-packages (from Twisted&gt;=17.9.0-&gt;scrapy) (1.0.2)
+Requirement already satisfied: hyperlink&gt;=17.1.1 in c:\users\asus\appdata\local\programs\python\python38\lib\site-packages (from Twisted&gt;=17.9.0-&gt;scrapy) (21.0.0)
+Requirement already satisfied: requests&gt;=2.1.0 in c:\users\asus\appdata\local\programs\python\python38\lib\site-packages (from tldextract-&gt;scrapy) (2.27.1)
+Requirement already satisfied: requests-file&gt;=1.4 in c:\users\asus\appdata\local\programs\python\python38\lib\site-packages (from tldextract-&gt;scrapy) (1.5.1)
+Requirement already satisfied: idna in c:\users\asus\appdata\local\programs\python\python38\lib\site-packages (from tldextract-&gt;scrapy) (3.3)
+Requirement already satisfied: filelock&gt;=3.0.8 in c:\users\asus\appdata\local\programs\python\python38\lib\site-packages (from tldextract-&gt;scrapy) (3.6.0)
+Requirement already satisfied: pycparser in c:\users\asus\appdata\local\programs\python\python38\lib\site-packages (from cffi&gt;=1.12-&gt;cryptography&gt;=2.0-&gt;scrapy) (2.21)
+Requirement already satisfied: charset-normalizer~=2.0.0 in c:\users\asus\appdata\local\programs\python\python38\lib\site-packages (from requests&gt;=2.1.0-&gt;tldextract-&gt;scrapy) (2.0.12)
+Requirement already satisfied: certifi&gt;=2017.4.17 in c:\users\asus\appdata\local\programs\python\python38\lib\site-packages (from requests&gt;=2.1.0-&gt;tldextract-&gt;scrapy) (2021.10.8)
+Requirement already satisfied: urllib3&lt;1.27,&gt;=1.21.1 in c:\users\asus\appdata\local\programs\python\python38\lib\site-packages (from requests&gt;=2.1.0-&gt;tldextract-&gt;scrapy) (1.26.8)
+Note: you may need to restart the kernel to use updated packages.
 </pre></div>
 </div>
 </div>
@@ -604,21 +637,34 @@ Tentukan atribut yang akan di crawl yakni judul, tanggal, kategori, dan deskrips
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>2022-06-29 21:06:41 [scrapy.utils.log] INFO: Scrapy 2.6.1 started (bot: scrapybot)
-2022-06-29 21:06:41 [scrapy.utils.log] INFO: Versions: lxml 4.8.0.0, libxml2 2.9.12, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.2.0, Python 3.8.2 (tags/v3.8.2:7b3ab59, Feb 25 2020, 23:03:10) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 22.0.0 (OpenSSL 1.1.1m  14 Dec 2021), cryptography 36.0.1, Platform Windows-10-10.0.17763-SP0
-2022-06-29 21:06:41 [scrapy.crawler] INFO: Overridden settings:
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>2022-06-30 19:03:35 [scrapy.utils.log] INFO: Scrapy 2.6.1 started (bot: scrapybot)
+</pre></div>
+</div>
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>2022-06-30 19:03:35 [scrapy.utils.log] INFO: Versions: lxml 4.8.0.0, libxml2 2.9.12, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 22.2.0, Python 3.8.2 (tags/v3.8.2:7b3ab59, Feb 25 2020, 23:03:10) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 22.0.0 (OpenSSL 1.1.1m  14 Dec 2021), cryptography 36.0.1, Platform Windows-10-10.0.17763-SP0
+</pre></div>
+</div>
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>2022-06-30 19:03:35 [scrapy.crawler] INFO: Overridden settings:
 {}
-2022-06-29 21:06:41 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.selectreactor.SelectReactor
-2022-06-29 21:06:42 [scrapy.extensions.telnet] INFO: Telnet Password: e5ae82ad5f75f7cb
-2022-06-29 21:06:42 [py.warnings] WARNING: c:\users\asus\appdata\local\programs\python\python38\lib\site-packages\scrapy\extensions\feedexport.py:289: ScrapyDeprecationWarning: The `FEED_URI` and `FEED_FORMAT` settings have been deprecated in favor of the `FEEDS` setting. Please see the `FEEDS` setting docs for more details
+</pre></div>
+</div>
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>2022-06-30 19:03:36 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.selectreactor.SelectReactor
+</pre></div>
+</div>
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>2022-06-30 19:03:36 [scrapy.extensions.telnet] INFO: Telnet Password: 74e34a1c5d39c23a
+</pre></div>
+</div>
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>2022-06-30 19:03:37 [py.warnings] WARNING: C:\Users\ASUS\AppData\Local\Programs\Python\Python38\lib\site-packages\scrapy\extensions\feedexport.py:289: ScrapyDeprecationWarning: The `FEED_URI` and `FEED_FORMAT` settings have been deprecated in favor of the `FEEDS` setting. Please see the `FEEDS` setting docs for more details
   exporter = cls(crawler)
-
-2022-06-29 21:06:42 [scrapy.middleware] INFO: Enabled extensions:
+</pre></div>
+</div>
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>2022-06-30 19:03:37 [scrapy.middleware] INFO: Enabled extensions:
 [&#39;scrapy.extensions.corestats.CoreStats&#39;,
  &#39;scrapy.extensions.telnet.TelnetConsole&#39;,
  &#39;scrapy.extensions.feedexport.FeedExporter&#39;,
  &#39;scrapy.extensions.logstats.LogStats&#39;]
-2022-06-29 21:06:44 [scrapy.middleware] INFO: Enabled downloader middlewares:
+</pre></div>
+</div>
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>2022-06-30 19:03:38 [scrapy.middleware] INFO: Enabled downloader middlewares:
 [&#39;scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware&#39;,
  &#39;scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware&#39;,
  &#39;scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware&#39;,
@@ -630,86 +676,162 @@ Tentukan atribut yang akan di crawl yakni judul, tanggal, kategori, dan deskrips
  &#39;scrapy.downloadermiddlewares.cookies.CookiesMiddleware&#39;,
  &#39;scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware&#39;,
  &#39;scrapy.downloadermiddlewares.stats.DownloaderStats&#39;]
-2022-06-29 21:06:44 [scrapy.middleware] INFO: Enabled spider middlewares:
+</pre></div>
+</div>
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>2022-06-30 19:03:38 [scrapy.middleware] INFO: Enabled spider middlewares:
 [&#39;scrapy.spidermiddlewares.httperror.HttpErrorMiddleware&#39;,
  &#39;scrapy.spidermiddlewares.offsite.OffsiteMiddleware&#39;,
  &#39;scrapy.spidermiddlewares.referer.RefererMiddleware&#39;,
  &#39;scrapy.spidermiddlewares.urllength.UrlLengthMiddleware&#39;,
  &#39;scrapy.spidermiddlewares.depth.DepthMiddleware&#39;]
-2022-06-29 21:06:44 [scrapy.middleware] INFO: Enabled item pipelines:
+</pre></div>
+</div>
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>2022-06-30 19:03:38 [scrapy.middleware] INFO: Enabled item pipelines:
 []
-2022-06-29 21:06:44 [scrapy.core.engine] INFO: Spider opened
-2022-06-29 21:06:45 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
-2022-06-29 21:06:45 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
-2022-06-29 21:06:45 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to &lt;GET https://tekno.sindonews.com/&gt; from &lt;GET https://tekno.sindonews.com/teknologi&gt;
-2022-06-29 21:06:46 [filelock] DEBUG: Attempting to acquire lock 3208775770896 on c:\users\asus\appdata\local\programs\python\python38\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
-2022-06-29 21:06:46 [filelock] DEBUG: Lock 3208775770896 acquired on c:\users\asus\appdata\local\programs\python\python38\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
-2022-06-29 21:06:46 [filelock] DEBUG: Attempting to acquire lock 3208775525952 on c:\users\asus\appdata\local\programs\python\python38\lib\site-packages\tldextract\.suffix_cache/urls\62bf135d1c2f3d4db4228b9ecaf507a2.tldextract.json.lock
-2022-06-29 21:06:46 [filelock] DEBUG: Lock 3208775525952 acquired on c:\users\asus\appdata\local\programs\python\python38\lib\site-packages\tldextract\.suffix_cache/urls\62bf135d1c2f3d4db4228b9ecaf507a2.tldextract.json.lock
-2022-06-29 21:06:46 [filelock] DEBUG: Attempting to release lock 3208775525952 on c:\users\asus\appdata\local\programs\python\python38\lib\site-packages\tldextract\.suffix_cache/urls\62bf135d1c2f3d4db4228b9ecaf507a2.tldextract.json.lock
-2022-06-29 21:06:46 [filelock] DEBUG: Lock 3208775525952 released on c:\users\asus\appdata\local\programs\python\python38\lib\site-packages\tldextract\.suffix_cache/urls\62bf135d1c2f3d4db4228b9ecaf507a2.tldextract.json.lock
-2022-06-29 21:06:46 [filelock] DEBUG: Attempting to release lock 3208775770896 on c:\users\asus\appdata\local\programs\python\python38\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
-2022-06-29 21:06:46 [filelock] DEBUG: Lock 3208775770896 released on c:\users\asus\appdata\local\programs\python\python38\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
-2022-06-29 21:06:46 [scrapy.core.engine] DEBUG: Crawled (200) &lt;GET https://tekno.sindonews.com/&gt; (referer: None)
-2022-06-29 21:06:46 [scrapy.core.scraper] DEBUG: Scraped from &lt;200 https://tekno.sindonews.com/&gt;
-{&#39;judul&#39;: &#39;Ternyata Ini Rahasia Huawei Bisa Jual 3.000 Smartwach dalam 3 Hari&#39;, &#39;tanggal&#39;: &#39;Rabu, 29 Juni 2022 - 20:36 WIB&#39;, &#39;kategori&#39;: &#39;ELEKTRONIK&#39;, &#39;deskripsi&#39;: &#39;Smartwatch Huawei Watch Fit 2 dan GT 3 Pro terjual 3.000 unit hanya dalam 3 hari. Ini menegaskan bagaimana konsumen Indonesia tergila-gila dengan perangkat canggih yang bisa menunjang kegiatan olah raga sambil tetap terlihat gaya.&#39;}
-2022-06-29 21:06:46 [scrapy.core.scraper] DEBUG: Scraped from &lt;200 https://tekno.sindonews.com/&gt;
-{&#39;judul&#39;: &#39;vivo Pamer Ponsel Lipat, Chip Gambar, Tablet, dan Smartwatch&#39;, &#39;tanggal&#39;: &#39;Rabu, 29 Juni 2022 - 20:02 WIB&#39;, &#39;kategori&#39;: &#39;GADGET&#39;, &#39;deskripsi&#39;: &#39;vivo Indonesia unjuk gigi teknologi terbaru mereka di ajang Technology Week 2022 Unfold Excellence pada 29 Juni hingga 3 Juli 2022 di Central Park Mall, Jakarta Barat.&#39;}
-2022-06-29 21:06:46 [scrapy.core.scraper] DEBUG: Scraped from &lt;200 https://tekno.sindonews.com/&gt;
-{&#39;judul&#39;: &#39;5 Cara Mengatasi Wi-Fi Internet Rumah Lemot, Dijamin Auto Ngebut!&#39;, &#39;tanggal&#39;: &#39;Rabu, 29 Juni 2022 - 19:13 WIB&#39;, &#39;kategori&#39;: &#39;TELCO&#39;, &#39;deskripsi&#39;: &#39;Cara mengatasi internet rumah yang lambat perlu diketahui. Sebab, meski Work Form Office (WFO) sudah berlaku penuh tapi masih banyak juga perusahaan yang memberlakukan Work From Home (WFH). Tentu, internet stabil menjadi syarat wajib saat WFH.&#39;}
-2022-06-29 21:06:46 [scrapy.core.scraper] DEBUG: Scraped from &lt;200 https://tekno.sindonews.com/&gt;
+</pre></div>
+</div>
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>2022-06-30 19:03:38 [scrapy.core.engine] INFO: Spider opened
+</pre></div>
+</div>
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>2022-06-30 19:03:39 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+</pre></div>
+</div>
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>2022-06-30 19:03:39 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+</pre></div>
+</div>
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>2022-06-30 19:03:41 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to &lt;GET https://tekno.sindonews.com/&gt; from &lt;GET https://tekno.sindonews.com/teknologi&gt;
+</pre></div>
+</div>
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>2022-06-30 19:03:41 [filelock] DEBUG: Attempting to acquire lock 2018788989200 on C:\Users\ASUS\AppData\Local\Programs\Python\Python38\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+</pre></div>
+</div>
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>2022-06-30 19:03:41 [filelock] DEBUG: Lock 2018788989200 acquired on C:\Users\ASUS\AppData\Local\Programs\Python\Python38\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+</pre></div>
+</div>
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>2022-06-30 19:03:41 [filelock] DEBUG: Attempting to acquire lock 2018788987184 on C:\Users\ASUS\AppData\Local\Programs\Python\Python38\lib\site-packages\tldextract\.suffix_cache/urls\62bf135d1c2f3d4db4228b9ecaf507a2.tldextract.json.lock
+</pre></div>
+</div>
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>2022-06-30 19:03:41 [filelock] DEBUG: Lock 2018788987184 acquired on C:\Users\ASUS\AppData\Local\Programs\Python\Python38\lib\site-packages\tldextract\.suffix_cache/urls\62bf135d1c2f3d4db4228b9ecaf507a2.tldextract.json.lock
+</pre></div>
+</div>
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>2022-06-30 19:03:41 [filelock] DEBUG: Attempting to release lock 2018788987184 on C:\Users\ASUS\AppData\Local\Programs\Python\Python38\lib\site-packages\tldextract\.suffix_cache/urls\62bf135d1c2f3d4db4228b9ecaf507a2.tldextract.json.lock
+</pre></div>
+</div>
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>2022-06-30 19:03:41 [filelock] DEBUG: Lock 2018788987184 released on C:\Users\ASUS\AppData\Local\Programs\Python\Python38\lib\site-packages\tldextract\.suffix_cache/urls\62bf135d1c2f3d4db4228b9ecaf507a2.tldextract.json.lock
+</pre></div>
+</div>
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>2022-06-30 19:03:41 [filelock] DEBUG: Attempting to release lock 2018788989200 on C:\Users\ASUS\AppData\Local\Programs\Python\Python38\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+</pre></div>
+</div>
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>2022-06-30 19:03:41 [filelock] DEBUG: Lock 2018788989200 released on C:\Users\ASUS\AppData\Local\Programs\Python\Python38\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+</pre></div>
+</div>
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>2022-06-30 19:03:41 [scrapy.core.engine] DEBUG: Crawled (200) &lt;GET https://tekno.sindonews.com/&gt; (referer: None)
+</pre></div>
+</div>
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>2022-06-30 19:03:41 [scrapy.core.scraper] DEBUG: Scraped from &lt;200 https://tekno.sindonews.com/&gt;
+{&#39;judul&#39;: &#39;3 Cara Mengetahui Akun Fake Instagram, Simak dan Pahami!&#39;, &#39;tanggal&#39;: &#39;Kamis, 30 Juni 2022 - 17:40 WIB&#39;, &#39;kategori&#39;: &#39;TELCO&#39;, &#39;deskripsi&#39;: &#39;Sedikitnya ada tiga cara mengetahui akun fake instagram. Dengan memahami ulasan ini, pengguna akan bisa membedakan tentang akun asli dan akun palsu di Instagram.&#39;}
+</pre></div>
+</div>
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>2022-06-30 19:03:41 [scrapy.core.scraper] DEBUG: Scraped from &lt;200 https://tekno.sindonews.com/&gt;
+{&#39;judul&#39;: &#39;Yuk Segarkan Diri di Musim Panas dengan Main Game Fruit Crush!&#39;, &#39;tanggal&#39;: &#39;Kamis, 30 Juni 2022 - 16:21 WIB&#39;, &#39;kategori&#39;: &#39;GAMES&#39;, &#39;deskripsi&#39;: &#39;Hai Sobat Gamer! Yuk segarkan diri di musim panas dengan main game Fruit Crush di Games+, Game match-3 yang penuh buah-buahan segar dan punya visual yang menarik.&#39;}
+</pre></div>
+</div>
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>2022-06-30 19:03:41 [scrapy.core.scraper] DEBUG: Scraped from &lt;200 https://tekno.sindonews.com/&gt;
+{&#39;judul&#39;: &#39;5 Cara Melihat Postingan IG yang di Private Tanpa Follow, dari Situs sampai Akun Palsu&#39;, &#39;tanggal&#39;: &#39;Kamis, 30 Juni 2022 - 15:23 WIB&#39;, &#39;kategori&#39;: &#39;TELCO&#39;, &#39;deskripsi&#39;: &#39;Sedikitnya ada lima cara melihat postingan IG yang di private tanpa follow. Selain menggunakan situs, cara melihat postingan IG tanpa follow juga bsa dengan membuat akun palsu.&#39;}
+</pre></div>
+</div>
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>2022-06-30 19:03:41 [scrapy.core.scraper] DEBUG: Scraped from &lt;200 https://tekno.sindonews.com/&gt;
 {&#39;judul&#39;: &#39;Partai Perindo: Mars Partai Perindo dengan QR Code&#39;, &#39;tanggal&#39;: None, &#39;kategori&#39;: &#39;sponsored&#39;, &#39;deskripsi&#39;: &#39;Lahir dari semangat untuk mengembalikan cita-cita kemerdekaan, Partai Perindo hadir untuk membangun Indonesia menjadi negara bersatu, berdaulat, adil dan makmur berlandaskan Pancasila.&#39;}
-2022-06-29 21:06:46 [scrapy.core.scraper] DEBUG: Scraped from &lt;200 https://tekno.sindonews.com/&gt;
+</pre></div>
+</div>
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>2022-06-30 19:03:41 [scrapy.core.scraper] DEBUG: Scraped from &lt;200 https://tekno.sindonews.com/&gt;
+{&#39;judul&#39;: &#39;Keren, Aplikasi Buatan Surabaya Ini Bisa Bantu Bikin NFT Cukup 1 Menit&#39;, &#39;tanggal&#39;: &#39;Kamis, 30 Juni 2022 - 15:00 WIB&#39;, &#39;kategori&#39;: &#39;TELCO&#39;, &#39;deskripsi&#39;: &#39;Woilo, aplikasi media sosial buatan Surabaya menghadirkan fitur baru NFT Woilo yang memudahkan pengguna membuat NFT cukup satu menit.&#39;}
+</pre></div>
+</div>
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>2022-06-30 19:03:41 [scrapy.core.scraper] DEBUG: Scraped from &lt;200 https://tekno.sindonews.com/&gt;
+{&#39;judul&#39;: &#39;Cara Menyembunyikan Aplikasi di HP OPPO Tanpa Aplikasi Pendukung&#39;, &#39;tanggal&#39;: &#39;Kamis, 30 Juni 2022 - 14:26 WIB&#39;, &#39;kategori&#39;: &#39;GADGET&#39;, &#39;deskripsi&#39;: &#39;Cara menyembunyikan aplikasi di hp OPPO harus dipahami lantaran sangat berguna bagi pengguna yang ingin meningkatkan sistem keamanan dalam menjaga privasi di smartphone miliknya.&#39;}
+</pre></div>
+</div>
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>2022-06-30 19:03:41 [scrapy.core.scraper] DEBUG: Scraped from &lt;200 https://tekno.sindonews.com/&gt;
+{&#39;judul&#39;: &#39;Kamera Galaxy S22 Ultra 5G untuk Memotret Low Light, Bagaimana Hasilnya?&#39;, &#39;tanggal&#39;: &#39;Kamis, 30 Juni 2022 - 11:27 WIB&#39;, &#39;kategori&#39;: &#39;GADGET&#39;, &#39;deskripsi&#39;: &#39;Memiliki ponsel dengan kamera bagus memang penting. Terutama di momen-momen khusus. Misalnya, harus memotret mobil tapi dalam kondisi cahaya minim.&#39;}
+</pre></div>
+</div>
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>2022-06-30 19:03:41 [scrapy.core.scraper] DEBUG: Scraped from &lt;200 https://tekno.sindonews.com/&gt;
+{&#39;judul&#39;: &#39;Facebook dan Instagram Melarang Keras Postingan Terkait Pil Aborsi&#39;, &#39;tanggal&#39;: &#39;Kamis, 30 Juni 2022 - 07:02 WIB&#39;, &#39;kategori&#39;: &#39;TELCO&#39;, &#39;deskripsi&#39;: &#39;Facebook dan Instagram kini melarang postingan yang menawarkan pil aborsi. Semua postingan yang mengandung penawaran tersebut, maka akan secara otomatis dihapus.&#39;}
+</pre></div>
+</div>
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>2022-06-30 19:03:41 [scrapy.core.scraper] DEBUG: Scraped from &lt;200 https://tekno.sindonews.com/&gt;
+{&#39;judul&#39;: &#39;Elon Musk Orang Ke-6 di Dunia dengan Pengikut Twitter Lebih dari 100 Juta&#39;, &#39;tanggal&#39;: &#39;Rabu, 29 Juni 2022 - 22:08 WIB&#39;, &#39;kategori&#39;: &#39;TELCO&#39;, &#39;deskripsi&#39;: &#39;CEO Tesla Elon Musk secara resmi mencapai angka 100 juta pengikut di Twitter dan menjadi pengguna keenam di platform media sosial yang mencapai tonggak sejarah.&#39;}
+</pre></div>
+</div>
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>2022-06-30 19:03:41 [scrapy.core.scraper] DEBUG: Scraped from &lt;200 https://tekno.sindonews.com/&gt;
+{&#39;judul&#39;: &#39;Apple dan Google Didesak Hapus TikTok, Disebut Jadi Mata-mata China&#39;, &#39;tanggal&#39;: &#39;Rabu, 29 Juni 2022 - 21:43 WIB&#39;, &#39;kategori&#39;: &#39;TELCO&#39;, &#39;deskripsi&#39;: &#39;Amerika agaknya terus berupaya mengusik produk dan layanan buatan China. Yang terbaru, TikTok.&#39;}
+</pre></div>
+</div>
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>2022-06-30 19:03:41 [scrapy.core.scraper] DEBUG: Scraped from &lt;200 https://tekno.sindonews.com/&gt;
+{&#39;judul&#39;: &#39;Ternyata Ini Rahasia Huawei Bisa Jual 3.000 Smartwatch dalam 3 Hari&#39;, &#39;tanggal&#39;: &#39;Rabu, 29 Juni 2022 - 20:36 WIB&#39;, &#39;kategori&#39;: &#39;ELEKTRONIK&#39;, &#39;deskripsi&#39;: &#39;Smartwatch Huawei Watch Fit 2 dan GT 3 Pro terjual 3.000 unit hanya dalam 3 hari. Ini menegaskan bagaimana konsumen Indonesia tergila-gila dengan perangkat canggih yang bisa menunjang kegiatan olah raga sambil tetap terlihat gaya.&#39;}
+</pre></div>
+</div>
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>2022-06-30 19:03:41 [scrapy.core.scraper] DEBUG: Scraped from &lt;200 https://tekno.sindonews.com/&gt;
+{&#39;judul&#39;: &#39;vivo Pamer Ponsel Lipat, Chip Gambar, Tablet, dan Smartwatch&#39;, &#39;tanggal&#39;: &#39;Rabu, 29 Juni 2022 - 20:02 WIB&#39;, &#39;kategori&#39;: &#39;GADGET&#39;, &#39;deskripsi&#39;: &#39;vivo Indonesia unjuk gigi teknologi terbaru mereka di ajang Technology Week 2022 Unfold Excellence pada 29 Juni hingga 3 Juli 2022 di Central Park Mall, Jakarta Barat.&#39;}
+</pre></div>
+</div>
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>2022-06-30 19:03:41 [scrapy.core.scraper] DEBUG: Scraped from &lt;200 https://tekno.sindonews.com/&gt;
+{&#39;judul&#39;: &#39;5 Cara Mengatasi Wi-Fi Internet Rumah Lemot, Dijamin Auto Ngebut!&#39;, &#39;tanggal&#39;: &#39;Rabu, 29 Juni 2022 - 19:13 WIB&#39;, &#39;kategori&#39;: &#39;TELCO&#39;, &#39;deskripsi&#39;: &#39;Cara mengatasi internet rumah yang lambat perlu diketahui. Sebab, meski Work Form Office (WFO) sudah berlaku penuh tapi masih banyak juga perusahaan yang memberlakukan Work From Home (WFH). Tentu, internet stabil menjadi syarat wajib saat WFH.&#39;}
+</pre></div>
+</div>
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>2022-06-30 19:03:41 [scrapy.core.scraper] DEBUG: Scraped from &lt;200 https://tekno.sindonews.com/&gt;
 {&#39;judul&#39;: &#39;Cara Membuat Email Baru di Hp dan Laptop, Cuma Beberapa Langkah!&#39;, &#39;tanggal&#39;: &#39;Rabu, 29 Juni 2022 - 13:06 WIB&#39;, &#39;kategori&#39;: &#39;TELCO&#39;, &#39;deskripsi&#39;: &#39;Cara membuat email baru di hp dan laptop bisa dilakukan dengan mudah. Dengan memahami ulasan ini, pengguna bisa mengetahui langkah-langkah pembuatan akun email baru di perangkatnya.&#39;}
-2022-06-29 21:06:46 [scrapy.core.scraper] DEBUG: Scraped from &lt;200 https://tekno.sindonews.com/&gt;
+</pre></div>
+</div>
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>2022-06-30 19:03:42 [scrapy.core.scraper] DEBUG: Scraped from &lt;200 https://tekno.sindonews.com/&gt;
 {&#39;judul&#39;: &#39;Cuma di AladinMall by Mister Aladin, Beli Smartphone Diskon up to 35% + Gratis Ongkir ke Seluruh Indonesia!&#39;, &#39;tanggal&#39;: &#39;Rabu, 29 Juni 2022 - 09:44 WIB&#39;, &#39;kategori&#39;: &#39;TELCO&#39;, &#39;deskripsi&#39;: &#39;AladinMall by Mister Aladin, memberikan kesempatan buat masyarakat membeli smartphone dengan harga yang lebih murah karena ada diskon spesial hingga 35%.&#39;}
-2022-06-29 21:06:46 [scrapy.core.scraper] DEBUG: Scraped from &lt;200 https://tekno.sindonews.com/&gt;
+</pre></div>
+</div>
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>2022-06-30 19:03:42 [scrapy.core.scraper] DEBUG: Scraped from &lt;200 https://tekno.sindonews.com/&gt;
 {&#39;judul&#39;: &#39;Kode Redeem FF Free Fire, Rabu 29 Juni 2022, Banyak Item Seru Buat yang Klaim Lebih Dulu&#39;, &#39;tanggal&#39;: &#39;Rabu, 29 Juni 2022 - 09:00 WIB&#39;, &#39;kategori&#39;: &#39;GAMES&#39;, &#39;deskripsi&#39;: &#39;Kode Redeem FF Free Fire, Rabu 29 Juni 2022 telah tersedia. Banyak item seru buat yang berhasil klaim lebih dulu.&#39;}
-2022-06-29 21:06:46 [scrapy.core.scraper] DEBUG: Scraped from &lt;200 https://tekno.sindonews.com/&gt;
+</pre></div>
+</div>
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>2022-06-30 19:03:42 [scrapy.core.scraper] DEBUG: Scraped from &lt;200 https://tekno.sindonews.com/&gt;
 {&#39;judul&#39;: &#39;Cara Melihat Password Wifi di Laptop Windows dan Macbook, Mudah dan Praktis&#39;, &#39;tanggal&#39;: &#39;Selasa, 28 Juni 2022 - 17:11 WIB&#39;, &#39;kategori&#39;: &#39;TELCO&#39;, &#39;deskripsi&#39;: &#39;Cara melihat password wifi di laptop windows dan macbook ternyata bisa dilakukan dengan mudah. Dengan memahami ulasan ini, pengguna tidak perlu bingung lagi untuk melihat kata sandi dari koneksi wifi yang tersambung di perangkatnya.&#39;}
 </pre></div>
 </div>
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>2022-06-29 21:06:46 [scrapy.core.scraper] DEBUG: Scraped from &lt;200 https://tekno.sindonews.com/&gt;
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>2022-06-30 19:03:42 [scrapy.core.scraper] DEBUG: Scraped from &lt;200 https://tekno.sindonews.com/&gt;
 {&#39;judul&#39;: &#39;Cara Mengamankan Akun WhatsApp Jika HP Hilang atau Dicuri&#39;, &#39;tanggal&#39;: &#39;Selasa, 28 Juni 2022 - 15:36 WIB&#39;, &#39;kategori&#39;: &#39;TELCO&#39;, &#39;deskripsi&#39;: &#39;Cara mengamankan Akun WhatsApp jika HP hilang atau dicuri wajib diketahui pengguna. Sehingga, mereka tahu apa yang harus dilakukan seandainya mengalami musibah kehilangan HP.&#39;}
-2022-06-29 21:06:46 [scrapy.core.scraper] DEBUG: Scraped from &lt;200 https://tekno.sindonews.com/&gt;
+</pre></div>
+</div>
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>2022-06-30 19:03:42 [scrapy.core.scraper] DEBUG: Scraped from &lt;200 https://tekno.sindonews.com/&gt;
 {&#39;judul&#39;: &#39;Kulkas di Rumah Boros Listrik? Ini Solusinya Moms!&#39;, &#39;tanggal&#39;: &#39;Selasa, 28 Juni 2022 - 15:00 WIB&#39;, &#39;kategori&#39;: &#39;SPONSORED&#39;, &#39;deskripsi&#39;: &#39;Kulkas yang boros listrik bisa menjadi permasalahan bagi yang berpenghasilan pas-pasan. Pasalnya, dengan kulkas yang boros listrik itu bisa membikin tagihan listrik menjadi membengkak, kini hadir kulkas hemat listrik dari Polytron.&#39;}
-2022-06-29 21:06:46 [scrapy.core.scraper] DEBUG: Scraped from &lt;200 https://tekno.sindonews.com/&gt;
+</pre></div>
+</div>
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>2022-06-30 19:03:42 [scrapy.core.scraper] DEBUG: Scraped from &lt;200 https://tekno.sindonews.com/&gt;
 {&#39;judul&#39;: &#39;Cara Mengatasi HP Xiaomi Restart Terus Menerus, Dijamin Berhasil!&#39;, &#39;tanggal&#39;: &#39;Selasa, 28 Juni 2022 - 14:33 WIB&#39;, &#39;kategori&#39;: &#39;GADGET&#39;, &#39;deskripsi&#39;: &#39;Cara mengatasi HP Xiaomi restart terus menerus penting diketahui. Sebab bisa jadi permasalahannya tidak sesederhana yang diperkirakan.&#39;}
-2022-06-29 21:06:46 [scrapy.core.scraper] DEBUG: Scraped from &lt;200 https://tekno.sindonews.com/&gt;
+</pre></div>
+</div>
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>2022-06-30 19:03:42 [scrapy.core.scraper] DEBUG: Scraped from &lt;200 https://tekno.sindonews.com/&gt;
 {&#39;judul&#39;: &#39;Kode Redeem FF Free Fire Selasa 28 Juni 2022, Klaim Pasti Auto Menang!&#39;, &#39;tanggal&#39;: &#39;Selasa, 28 Juni 2022 - 13:42 WIB&#39;, &#39;kategori&#39;: &#39;GAMES&#39;, &#39;deskripsi&#39;: &#39;Kode Redeem FF Free Fire, Selasa 28 Juni 2022, lebih menarik karena pemain bisa mendapat banyak sekali item gratis yang bisa digunakan.&#39;}
-2022-06-29 21:06:46 [scrapy.core.scraper] DEBUG: Scraped from &lt;200 https://tekno.sindonews.com/&gt;
-{&#39;judul&#39;: &#39;Bundling Vision+ dan Telkomsel, Makin Seru Streaming Konten Spesial Juni&#39;, &#39;tanggal&#39;: &#39;Selasa, 28 Juni 2022 - 09:53 WIB&#39;, &#39;kategori&#39;: &#39;TELCO&#39;, &#39;deskripsi&#39;: &#39;Di bulan Juni ini, Vision+ hadir dengan berbagai konten menarik untuk menemani hari-hari Anda. Lebih seru, Vision+ juga mengadakan paket bundling dengan Telkomsel&#39;}
-2022-06-29 21:06:46 [scrapy.core.scraper] DEBUG: Scraped from &lt;200 https://tekno.sindonews.com/&gt;
-{&#39;judul&#39;: &#39;Instagram Down, Pengguna Tumpahkan Keluhan di Twitter&#39;, &#39;tanggal&#39;: &#39;Selasa, 28 Juni 2022 - 09:25 WIB&#39;, &#39;kategori&#39;: &#39;TELCO&#39;, &#39;deskripsi&#39;: &#39;Media sosial Instagram dilaporkan mengalami gangguan alias down siang ini Selasa, 28 Juni 2022. Bahkan para pengguna Instagram beramai-ramai mengeluh di Twitter.&#39;}
-2022-06-29 21:06:46 [scrapy.core.scraper] DEBUG: Scraped from &lt;200 https://tekno.sindonews.com/&gt;
-{&#39;judul&#39;: &#39;Daftar Kekayaan Sergey Brin, Pendiri Google yang Baru Saja Bercerai&#39;, &#39;tanggal&#39;: &#39;Selasa, 28 Juni 2022 - 09:14 WIB&#39;, &#39;kategori&#39;: &#39;TELCO&#39;, &#39;deskripsi&#39;: &#39;Daftar kekayaan Sergey Brin sebagian besar memang berasal dari Google dan Alphabet, perusahaan teknologi raksasa yang ia dirikan.&#39;}
-2022-06-29 21:06:46 [scrapy.core.scraper] DEBUG: Scraped from &lt;200 https://tekno.sindonews.com/&gt;
-{&#39;judul&#39;: &#39;iPhone Paling Laris di Indonesia, Mana yang Sedang Anda Gunakan?&#39;, &#39;tanggal&#39;: &#39;Selasa, 28 Juni 2022 - 08:41 WIB&#39;, &#39;kategori&#39;: &#39;GADGET&#39;, &#39;deskripsi&#39;: &#39;iPhone paling laris di Indonesia memang menjadi banyak pertanyaan. Sayangnya, Apple dan lembaga riset tidak merilis data resmi terkait penjualan Apple di Indonesia.&#39;}
-2022-06-29 21:06:46 [scrapy.core.scraper] DEBUG: Scraped from &lt;200 https://tekno.sindonews.com/&gt;
-{&#39;judul&#39;: &#39;Aplikasi Bawaan HP Xiaomi yang Boleh Dihapus, Jangan Salah Pilih!&#39;, &#39;tanggal&#39;: &#39;Senin, 27 Juni 2022 - 19:20 WIB&#39;, &#39;kategori&#39;: &#39;GADGET&#39;, &#39;deskripsi&#39;: &#39;Aplikasi bawaan HP Xiaomi yang boleh dihapus penting diketahui oleh Mi Fans. Karena faktanya ada banyak aplikasi bawaan pada HP Xiaomi yang bisa dihilangkan.&#39;}
-2022-06-29 21:06:46 [scrapy.core.scraper] DEBUG: Scraped from &lt;200 https://tekno.sindonews.com/&gt;
-{&#39;judul&#39;: &#39;Aplikasi iPhone Terbaik yang Wajib Dimiliki, Download Sekarang Juga!&#39;, &#39;tanggal&#39;: &#39;Senin, 27 Juni 2022 - 18:58 WIB&#39;, &#39;kategori&#39;: &#39;GADGET&#39;, &#39;deskripsi&#39;: &#39;Aplikasi iPhone terbaik yang wajib dimiliki perlu diketahui pengguna iOS. Tentu saja, agar mereka bisa mengoptimalkan penggunaan perangkat mereka. Juga, bisa mendapatkan benefit dari berbagai aplikasi yang menarik.&#39;}
-2022-06-29 21:06:46 [scrapy.core.scraper] DEBUG: Scraped from &lt;200 https://tekno.sindonews.com/&gt;
-{&#39;judul&#39;: &#39;Cara Menyembunyikan Last Seen WhatsApp dari Kontak Tertentu&#39;, &#39;tanggal&#39;: &#39;Senin, 27 Juni 2022 - 18:20 WIB&#39;, &#39;kategori&#39;: &#39;TELCO&#39;, &#39;deskripsi&#39;: &#39;Cara menyembunyikan Last Seen WhatsApp dari kontak tertentu penting diketahui. Sebab, fitur ini erat hubungannya dengan privasi.&#39;}
-2022-06-29 21:06:46 [scrapy.core.scraper] DEBUG: Scraped from &lt;200 https://tekno.sindonews.com/&gt;
-{&#39;judul&#39;: &#39;10 Aplikasi Khusus Xiaomi Terbaik dan Gratis, Sangat Bermanfaat&#39;, &#39;tanggal&#39;: &#39;Senin, 27 Juni 2022 - 16:20 WIB&#39;, &#39;kategori&#39;: &#39;GADGET&#39;, &#39;deskripsi&#39;: &#39;Aplikasi khusus Xiaomi terbaik dan gratis ini bisa jadi rekomendasi bagi pengguna untuk berekspresi. Xiaomi memang menjadi smartphone yang banyak dimiliki orang karena spesifikasinya yang tangguh.&#39;}
-2022-06-29 21:06:46 [scrapy.core.scraper] DEBUG: Scraped from &lt;200 https://tekno.sindonews.com/&gt;
-{&#39;judul&#39;: &#39;Penyebab dan Cara Mengatasi WhatsApp Tidak Bisa Mengirim Pesan&#39;, &#39;tanggal&#39;: &#39;Senin, 27 Juni 2022 - 14:32 WIB&#39;, &#39;kategori&#39;: &#39;TELCO&#39;, &#39;deskripsi&#39;: &#39;Penyebab dan cara mengatasi WhatsApp tidak bisa mengirim pesan perlu diketahui agar komunikasi bisa terjalin lancar.&#39;}
-2022-06-29 21:06:46 [scrapy.core.engine] INFO: Closing spider (finished)
-2022-06-29 21:06:46 [scrapy.extensions.feedexport] INFO: Stored csv feed (21 items) in: berita3.csv
-2022-06-29 21:06:46 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+</pre></div>
+</div>
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>2022-06-30 19:03:42 [scrapy.core.engine] INFO: Closing spider (finished)
+</pre></div>
+</div>
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>2022-06-30 19:03:42 [scrapy.extensions.feedexport] INFO: Stored csv feed (21 items) in: berita3.csv
+</pre></div>
+</div>
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>2022-06-30 19:03:42 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
 {&#39;downloader/request_bytes&#39;: 447,
  &#39;downloader/request_count&#39;: 2,
  &#39;downloader/request_method_count/GET&#39;: 2,
- &#39;downloader/response_bytes&#39;: 24802,
+ &#39;downloader/response_bytes&#39;: 25160,
  &#39;downloader/response_count&#39;: 2,
  &#39;downloader/response_status_count/200&#39;: 1,
  &#39;downloader/response_status_count/301&#39;: 1,
- &#39;elapsed_time_seconds&#39;: 1.256611,
+ &#39;elapsed_time_seconds&#39;: 2.337587,
  &#39;feedexport/success_count/FileFeedStorage&#39;: 1,
  &#39;finish_reason&#39;: &#39;finished&#39;,
- &#39;finish_time&#39;: datetime.datetime(2022, 6, 29, 14, 6, 46, 563567),
- &#39;httpcompression/response_bytes&#39;: 110505,
+ &#39;finish_time&#39;: datetime.datetime(2022, 6, 30, 12, 3, 42, 24442),
+ &#39;httpcompression/response_bytes&#39;: 110966,
  &#39;httpcompression/response_count&#39;: 1,
  &#39;item_scraped_count&#39;: 21,
  &#39;log_count/DEBUG&#39;: 32,
@@ -720,8 +842,10 @@ Tentukan atribut yang akan di crawl yakni judul, tanggal, kategori, dan deskrips
  &#39;scheduler/dequeued/memory&#39;: 2,
  &#39;scheduler/enqueued&#39;: 2,
  &#39;scheduler/enqueued/memory&#39;: 2,
- &#39;start_time&#39;: datetime.datetime(2022, 6, 29, 14, 6, 45, 306956)}
-2022-06-29 21:06:46 [scrapy.core.engine] INFO: Spider closed (finished)
+ &#39;start_time&#39;: datetime.datetime(2022, 6, 30, 12, 3, 39, 686855)}
+</pre></div>
+</div>
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>2022-06-30 19:03:42 [scrapy.core.engine] INFO: Spider closed (finished)
 </pre></div>
 </div>
 </div>
@@ -2780,13 +2904,6 @@ fitur baru headphone para memungkinkan ak berlangganan mendapatkan sejumlah terh
                 
     <!-- Previous / next buttons -->
 <div class='prev-next-area'>
-    <a class='left-prev' id="prev-link" href="intro.html" title="previous page">
-        <i class="fas fa-angle-left"></i>
-        <div class="prev-next-info">
-            <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">Selamat Datang Di Materi Topik Modeling</p>
-        </div>
-    </a>
 </div>
             </footer>
         </div>
